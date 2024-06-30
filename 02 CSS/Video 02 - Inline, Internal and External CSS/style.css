@@ -1,0 +1,15 @@
+        h1, div, p{
+            color: goldenrod;
+            background-color: black;
+        }
+        BODY{
+            background-color: rgb(217, 217, 217);
+        }
+        th{
+            background-color: black;
+            color: white;
+        }
+        td{
+            background-color: grey;
+            color: white;
+        }

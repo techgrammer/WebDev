@@ -1,0 +1,80 @@
+body {
+    background-color: #FFFFFF; /* White background */
+    color: #000000; /* Black text */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f4f4f4; /* Light grey background for header */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #000000; /* Black color for the title */
+}
+
+main {
+    padding: 20px;
+}
+
+.note {
+    background-color: #FFFFFF; /* White background for notes */
+    border: 1px solid #DDDDDD; /* Light grey border for notes */
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.note h2 {
+    color: #000000; /* Black color for note titles */
+}
+
+.navigation {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.navigation .prev {
+    float: left;
+}
+
+.navigation .next {
+    float: right;
+}
+
+pre.code-window {
+    background-color: #f4f4f4; /* Light grey background for code window */
+    border: 1px solid #CCCCCC; /* Light grey border for code window */
+    padding: 10px;
+    position: relative;
+}
+
+.code-window code {
+    display: block;
+    white-space: pre-wrap; /* Allow wrapping of long lines */
+}
+
+.copy-btn {
+    background-color: #4CAF50; /* Green background for copy button */
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.copy-btn:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+footer {
+    background-color: #f4f4f4; /* Same as header background */
+    color: #000000;
+    padding: 10px;
+    text-align: center;
+}
